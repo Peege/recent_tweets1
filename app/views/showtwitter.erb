@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Welcome to <%= params[:username] %>'s Tweets!</h1>
+
+
+  <br><br>
+  <% @tweets.each do |t| %>
+    <%= t.text %><br><br>
+  <% end %>
+
+</div>
+
+
+
+
